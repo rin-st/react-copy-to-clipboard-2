@@ -63,7 +63,7 @@ A functional React component that wraps its children and provides copy-to-clipbo
 
 - `text` (string, required): The text to be copied to the clipboard.
 - `children` (React.Element, required): The child elements to be wrapped by the component.
-- `onCopy` ((text: string, result: boolean) => void, optional): Callback function called after attempting to copy.
+- `onCopy` ((text: string, result: boolean) => void, optional): Callback function called after copying.
 - `options` ({
   debug?: boolean;
   message?: string;
