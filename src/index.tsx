@@ -23,7 +23,6 @@ export const CopyToClipboard = ({
   children,
   onCopy,
   options,
-  ...props
 }: CopyToClipboardProps) => {
   const handleCopy = () => {
     const result = copy(text, options);
@@ -63,5 +62,10 @@ export const CopyToClipboard = ({
 
   const elem = Children.only(children);
 
-  return cloneElement(elem, { ...props, onClick, onKeyDown, tabIndex: 0 });
+  return cloneElement(elem, {
+    tabIndex: 0,
+    ...(children.props || {}),
+    onClick,
+    onKeyDown,
+  });
 };
