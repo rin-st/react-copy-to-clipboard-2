@@ -16,7 +16,7 @@
     "react-copy-to-clipboard"
   ],
   "author": "rin-st",
-  "license": "ISC",
+  "license": "MIT",
   "description": "React component for copying text to the clipboard.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
