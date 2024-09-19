@@ -1,0 +1,50 @@
+{
+  "name": "react-copy-to-clipboard-2",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc && babel src --out-dir dist",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "copy",
+    "clipboard",
+    "copy text",
+    "copy-text",
+    "copy-to-clipboard",
+    "copy to clipboard",
+    "react-copy-to-clipboard"
+  ],
+  "author": "rin-st",
+  "license": "ISC",
+  "description": "React component for copying text to the clipboard.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rin-st/react-copy-to-clipboard-2.git"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "copy-to-clipboard": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@types/react": "^18.3.7",
+    "babel-loader": "^9.2.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
