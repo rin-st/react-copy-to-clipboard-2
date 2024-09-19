@@ -19,7 +19,7 @@
   "license": "MIT",
   "description": "React component for copying text to the clipboard.",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
