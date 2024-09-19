@@ -55,10 +55,6 @@ function App() {
 
 ## API
 
-### `<CopyToClipboard />`
-
-A functional React component that wraps its children and provides copy-to-clipboard functionality.
-
 #### Props
 
 - `text` (string, required): The text to be copied to the clipboard.
