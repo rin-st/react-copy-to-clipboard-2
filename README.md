@@ -57,14 +57,10 @@ function App() {
 
 #### Props
 
-- `text` (string, required): The text to be copied to the clipboard.
-- `children` (React.Element, required): The child elements to be wrapped by the component.
-- `onCopy` ((text: string, result: boolean) => void, optional): Callback function called after copying.
-- `options` ({
-  debug?: boolean;
-  message?: string;
-  format?: string;
-  }, optional): Additional options for clipboard behavior. See [copy-to-clipboard](https://www.npmjs.com/package/copy-to-clipboard#api) for details.
+- `text`: `string`, **required**. The text to be copied to the clipboard.
+- `children`: `React.Element`, **required**. The child elements to be wrapped by the component.
+- `onCopy`: `(text: string, result: boolean) => void`, **optional**. Callback function called after copying.
+- `options`: `{debug?: boolean; message?: string; format?: string;}`, **optional**. Additional options for clipboard behavior. See [copy-to-clipboard](https://www.npmjs.com/package/copy-to-clipboard#api) for details.
 
 ## License
 
